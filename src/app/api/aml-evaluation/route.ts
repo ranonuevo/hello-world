@@ -3,7 +3,7 @@ import { NextResponse } from 'next/server'
 export async function GET() {
   const amlSamples = [
     {
-      "fullName": "LOK, Wing Ching",
+      "name": "LOK, Wing Ching",
       "amlStatus": "HIGH",
       "hits": {
         "pep": true,
@@ -13,7 +13,7 @@ export async function GET() {
       "screeningDate": "2025-08-04T13:10:06.379Z"
     },
     {
-      "fullName": "Maria Fernandez",
+      "name": "Maria Fernandez",
       "amlStatus": "LOW",
       "hits": {
         "pep": false,
@@ -23,7 +23,7 @@ export async function GET() {
       "screeningDate": "2025-08-04T13:12:45.103Z"
     },
     {
-      "fullName": "Carlos Tan",
+      "name": "Carlos Tan",
       "amlStatus": "MEDIUM",
       "hits": {
         "pep": false,
@@ -33,7 +33,7 @@ export async function GET() {
       "screeningDate": "2025-08-04T13:13:27.842Z"
     },
     {
-      "fullName": "Fatima Al Zahra",
+      "name": "Fatima Al Zahra",
       "amlStatus": "HIGH",
       "hits": {
         "pep": true,
@@ -43,7 +43,7 @@ export async function GET() {
       "screeningDate": "2025-08-04T13:20:01.000Z"
     },
     {
-      "fullName": "John Miller",
+      "name": "John Miller",
       "amlStatus": "LOW",
       "hits": {
         "pep": false,
@@ -53,7 +53,7 @@ export async function GET() {
       "screeningDate": "2025-08-04T13:21:45.000Z"
     },
     {
-      "fullName": "Nguyen Thi Hoa",
+      "name": "Nguyen Thi Hoa",
       "amlStatus": "MEDIUM",
       "hits": {
         "pep": false,
